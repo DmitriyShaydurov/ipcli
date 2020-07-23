@@ -42,13 +42,11 @@ from public directory run
 or make the script executable with chmod:  
 `chmod +x ipicli`    
 and you can run   
-`ipcli convert hello world`    
-you should  see:
-`  
+`ipcli convert hello`     
+you should  see:  
 HELLO  
 hElLo  
-CSV created!
-`    
+CSV created!  
 the csv output  in example.csv file
 
 
