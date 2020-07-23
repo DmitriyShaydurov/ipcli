@@ -20,7 +20,7 @@ class ConvertControllerTest extends TestCase
         $registry = new CommandRegistry();
         $app = new App($informer, $registry);
         $app->bindService('csv', function () {
-            return new CsvOutput($_SERVER["DOCUMENT_ROOT"] . 'public/example.php');
+            return new CsvOutput($_SERVER["DOCUMENT_ROOT"] . 'public/example.csv');
         });
         $this->convertController =  new ConvertController($app);
     }
