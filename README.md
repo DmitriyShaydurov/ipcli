@@ -42,7 +42,7 @@ from public directory run
 or make the script executable with chmod:  
 `chmod +x ipicli`    
 and you can run   
-`pcli convert hello world`    
+`ipcli convert hello world`    
 you should  see:
 `  
 HELLO  
