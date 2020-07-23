@@ -1,0 +1,13 @@
+<?php
+
+$app = require_once __DIR__.'/../bootstrap/app.php';
+
+use App\Controllers\HelpController;
+use App\Controllers\ConvertController;
+
+// register your controllers and commands here
+$app->registerController('convert', new ConvertController($app));
+$app->registerController('help', new HelpController($app));
+
+
+$app->runCommand($argv);
